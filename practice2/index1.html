@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto auto;
+            background-color:rgb(31, 30, 30);
+        }
+    
+        .parent img{
+            margin-left: 15%;
+            background-image: url('https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2020/10/GettyImages-1167560383_413205512_747927761.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+        .txt{
+        width: 30%;
+        position: relative;
+        top:-50%;
+        left: 30%;
+        text-align: justify;
+        visibility:hidden;
+        } 
+        .image:hover {
+        opacity: 60%;
+        } 
+        .image:hover .txt {
+        visibility: visible; 
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="image" id="ph1"><img src="http://www.queness.com/resources/html/masking-images-with-shape/round.png">
+              <div class="txt"><h3>Lorem Ipsum</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+          </div> 
+        <div class="image" id="ph2"><img src="http://www.queness.com/resources/html/masking-images-with-shape/hexagon.png" alt="" >
+          <div class="txt"><h3>Lorem Ipsum</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+      </div>
+        <div class="image" id="ph3"><img src="http://www.queness.com/resources/html/masking-images-with-shape/pentagon.png" alt="" >
+          <div class="txt"><h3>Lorem Ipsum</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+      </div>
+        <div class="image" id="ph4"><img src="http://www.queness.com/resources/html/masking-images-with-shape/round.png" alt="" >
+          <div class="txt"><h3>Lorem Ipsum</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+      </div>
+        <div class="image" id="ph5"><img src="http://www.queness.com/resources/html/masking-images-with-shape/hexagon.png" alt="" >
+          <div class="txt"><h3>Lorem Ipsum</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+      </div>
+        <div class="image" id="ph6"><img src="http://www.queness.com/resources/html/masking-images-with-shape/pentagon.png" alt="" >
+          <div class="txt"><h3>Lorem Ipsum</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+      </div>
+      </div>
+</body>
+</html>
